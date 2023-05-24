@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+
+}
+
+
+body{
+    background-color: #101728;
+    font-family: 'Poppins', sans-serif;
+    background: #101728;
+    color: white;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 170px;
+
+}
+
+.logo-nav{
+    height: 120px;
+    width: 120px;
+    margin-left: 2.5vh;
+    margin-top: 10vh;
+
+}
+.main-text{ 
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-text img{
+    position: relative;
+    left: 40vh;
+    bottom: 60px;
+}
+
+.main-text-style{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 300%;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    white-space: nowrap;
+}
+.main-project{ 
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#main-project-titulo{
+    font-size: 300%;
+}
+#main-project-subtitulo{
+    font-size: 180%;
+    margin-top: 10px;
+}
+#saibamais{
+    font-size: 90%;
+    margin-top: 10px;
+    text-decoration: none;
+}
+#main-project-mais{
+    font-size: 60%;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+iframe{
+    width: 700px;
+    height: 400px;
+
+}
+
+.main-search{
+    display: flex;
+    justify-content: center;
+}
+
+#inputSearch {
+    height: 7vh;
+    width: 30vw;
+    background: #676e7d;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-left: 7px;
+}
+#inputSearch:hover {
+    border: 1px solid black;
+}
+
+
+  
+  .containerofPerfil {
+    width: 900px;
+    background: #1E2639;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+  }
+  .img{
+    width:200px;
+    max-height: 400px;
+    
+}
+.img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 0 0 30px;
+}
+
+.main-aba-text{
+    width: 70%;
+    margin: 20px;
+    
+}
+.nome{
+    font-size: 110%;
+    font-weight: bold;
+}
+.curso{
+    font-size: 105%;
+    font-style: italic;
+}
+
+.soft, .hard, .intere{
+    font-size: 100%;
+}
+
+.button button{
+  background-color: #00C2FF;
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.button button:hover{
+  background-color: #00A0FF;
+}
+
+footer{
+    width: 100%;
+    height: 110px;
+    background-color: #1E2639;
+    
+}
+.footer-text{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    
+}
+
+footer p{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logop{
+    width: 100px;
+    height: 100px;
+}
+
+.insta{
+    width: 30px;
+    height: 30px;
+}
+ 
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1E2639;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #0c111f;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
+
+@media (max-width: 768px) {
+    #inputSearch {
+      width: 40vw;
+      max-width: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #inputSearch {
+      width: 60vw;
+      max-width: 300px;
+    }
+  }
+  #lupa {
+    position: relative;
+    z-index: 2;
+    top: 2vh;
+    right: calc(3vw - 6vh + 7vh);
+    height: 5vh;
+  }
+  @media(max-width: 1920px){
+    .main-project{
+        margin-top: 15%;
+    }.main-text-style{
+        font-size: 500%;
+    }.logo-nav{
+        height: 200px;
+        width: 200px;
+        margin-left: -0.5vh;
+        margin-top: 5vh;
+    }.main-text img{
+        height: 60vh;
+        bottom: 80px;
+        margin-left: -5%;
+    }
+}
+    @media(max-width: 1600px){
+        .main-text img{
+            height: 60vh;
+            bottom: 80px;
+            margin-left: -15%;
+        }
+  }
+  @media(max-width: 1440px){
+    .main-text-{
+        font-size: 100px;
+    }
+    .main-text img{
+        height: 60vh;
+        bottom: 80px;
+        margin-left: -25%;
+    }
+    iframe{
+        width: 600px;
+        height: 400px;
+    }
+    #inputSearch{
+        height: 5vh;
+        width: 30vw;
+      }
+      #lupa {
+        right: calc(2vw - 12vh + 14vh);
+        top: 1.8vh;
+        height: 4vh;     
+    }
+}
+  @media (max-width: 768px) {
+    #lupa {
+        right: calc(6vw - 12vh + 14vh);
+    }
+    .main-project{
+        width: 100%;
+        font-size: 60%;
+    }
+    iframe{
+        width: 500px;
+        height: 300px;
+    }
+    .main-text-style{
+        font-size: 30px;
+    }
+    #main-project-subtitulo{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .containerofPerfil {
+        width: 100%;
+    }
+    .main-aba-text{
+        font-size: 10%;
+        
+    }
+    .img{
+        width: 140px;
+    }
+    .nome{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .curso{
+        font-size: 12px;
+        font-style: italic;
+    }
+    
+    .soft, .hard, .intere{
+        font-size: 11px;
+    }
+    .button button{
+        width: 90px;
+        height: 25px;
+        font-size: 13px;
+      }
+      #inputSearch{
+        height: 35px;
+        width: 600px;
+        
+      }
+      .logo-nav{
+        width: 100px;
+        height: 100px;
+        margin: 20px 0 0 20px;
+      }
+      nav{
+        height: 90px;
+    
+    }
+  }
+  
+  @media (max-width: 660px) {
+    .main-project{
+        width: 100%;
+        font-size: 60%;
+    }
+    .main-text-style{
+        font-size: 30px;
+    }
+    iframe{
+        width: 400px;
+        height: 200px;
+    }
+    #main-project-subtitulo{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .containerofPerfil {
+        width: 100%;
+    }
+    .main-aba-text{
+        font-size: 10%;
+        
+    }
+    .img{
+        width: 140px;
+    }
+    .nome{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .curso{
+        font-size: 12px;
+        font-style: italic;
+    }
+    
+    .soft, .hard, .intere{
+        font-size: 11px;
+    }
+    .button button{
+        width: 90px;
+        height: 25px;
+        font-size: 13px;
+      }
+      #inputSearch{
+        height: 35px;
+        width: 600px;
+        
+      }
+      .logo-nav{
+        width: 100px;
+        height: 100px;
+        margin: 20px 0 0 20px;
+      }
+      nav{
+        height: 90px;
+    
+    }
+  }
+
+  @media (max-width: 480px) {
+    .main-project{
+        width: 100%;
+        font-size: 60%;
+    }
+    .main-text-style{
+        font-size: 30px;
+    }
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+    #main-project-subtitulo{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .containerofPerfil {
+        width: 100%;
+    }
+    .main-aba-text{
+        font-size: 10%;
+        
+    }
+    .img{
+        width: 130px;
+    }
+    .nome{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .curso{
+        font-size: 10px;
+        font-style: italic;
+    }
+    
+    .soft, .hard, .intere{
+        font-size: 10px;
+    }
+    .button button{
+        width: 90px;
+        height: 25px;
+        font-size: 13px;
+      }
+      #inputSearch{
+        height: 5vh;
+      }
+      #lupa{
+        top: 1vh;
+        height: 3vh
+      }
+      .logo-nav{
+        width: 100px;
+        height: 100px;
+        margin: 20px 0 0 20px;
+      }
+      nav{
+        height: 90px;
+    
+    }
+  }
+  /*PARA AIFONI XR*/
+  @media (max-width: 414px) {
+    body{
+        border: 1px solid black;
+    }
+    .main-text img{
+        display: none;
+    }
+        .main-project{
+            width: 100%;
+            font-size: 60%;
+        }
+        .main-text-style{
+            font-size: 30px;
+        }
+        #main-project-subtitulo{
+            width: 80%;
+            margin: 0 auto;
+            font-size: 14px;
+        }
+        .containerofPerfil {
+            width: 100%;
+        }
+        .main-aba-text{
+            font-size: 10%;
+            
+        }
+        .img{
+            width: 130px;
+        }
+        .nome{
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .curso{
+            font-size: 10px;
+            font-style: italic;
+        }
+        
+        .soft, .hard, .intere{
+            font-size: 9px;
+        }
+        .button button{
+            width: 90px;
+            height: 25px;
+            font-size: 13px;
+          }
+          #inputSearch{
+            height: 4vh;
+            width: 70vw;
+          }
+          .logo-nav{
+            width: 100px;
+            height: 100px;
+            margin: 20px 0 0 20px;
+          }
+          nav{
+            height: 90px;
+        
+        }
+    
+  }
+  @media (max-width: 414px) {
+    .containerofPerfil {
+        width: 100%;
+    }
+    .img{
+        width: 130px;
+    }
+    .main-aba-text{
+        font-size: 10%;
+        
+    }
+    .img{
+        width: 130px;
+    }
+    .nome{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .curso{
+        font-size: 9px;
+        font-style: italic;
+    }
+    
+    .soft, .hard, .intere{
+        font-size: 8px;
+    }
+  }
